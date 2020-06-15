@@ -1,4 +1,4 @@
-# Neural_Network_Plant_classifier
+# Neural_Network_Plant_classifier 
 ## Executive Summary
 ### Problem statement
 "Is it possible to help new South African farmers increase their yield by proactively pruning away the weeds that grow kill crops?"
