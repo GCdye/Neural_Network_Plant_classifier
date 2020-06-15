@@ -1,4 +1,5 @@
 
+
 from keras.preprocessing.image import load_img, img_to_array
 from keras.models import load_model
 import numpy as np
@@ -45,8 +46,8 @@ def directory_predictor(num_of_pics, file_path='./seedlings/maize/'):
     weed_locations = []
     for i in range(num_of_pics):
         try:
-            status = output_func(f'{file_path}{i}.png')
-            print(i)
+            status = output_func(f'./seedlings/{file_path}/{i}.png')
+            print(f'Plant number: {i} \n')
             if status == 0:
                 weed_locations.append(i)
         except:
