@@ -1,4 +1,5 @@
 # Neural_Network_Plant_classifier 
+### 2020 update: currently working to make the code change from keras being fully intergrated as a TF library. Some errors may occur with running model predictions.
 ## Executive Summary
 ### Problem statement
 "Is it possible to help new South African farmers increase their yield by proactively pruning away the weeds that grow kill crops?"
